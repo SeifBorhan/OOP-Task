@@ -1,2 +1,15 @@
-package PACKAGE_NAME;public class Quiz {
+import java.util.*;
+
+public class Quiz {
+
+    private List<Question> questions;
+
+    public void addQuestions(){}
+
+    public void displayQuestions(){}
+
+    public int calculateScore(){
+        return -1;
+    }
+
 }
