@@ -16,14 +16,6 @@ public class Quiz {
         questions.add(q);
     }
 
-    public void displayQuestions(){
-        System.out.println("Type in the correct answer!");
-        for(int i=0; i<questions.size();i++){
-            System.out.println("Question " + i + ":");
-            questions.get(i).displayQuestion();
-        }
-    }
-
     public int calculateScore(User u){
         int score=0;
         for (Map.Entry<Question, String> entry : u.getResponses().entrySet()) {
